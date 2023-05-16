@@ -1,11 +1,15 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.IO;
 using System.Windows.Forms;
+using OfficeOpenXml;
 
 namespace Sistem_za_skladistenje
 {
+
     public partial class Form1 : Form
     {
+
         myDatabase con = new myDatabase();
         MySqlCommand command;
         MySqlDataAdapter adapter;
@@ -50,7 +54,7 @@ namespace Sistem_za_skladistenje
                     max_kolicina = int.Parse(sdr["kolicina"].ToString());
                 }
                 sdr.Close();
-                if(int.Parse(kolicina) > max_kolicina)
+                if (int.Parse(kolicina) > max_kolicina)
                 {
                     comboBox1.SelectedItem = null;
                     textBox1.Text = textBox2.Text = textBox3.Text = "";
@@ -58,7 +62,7 @@ namespace Sistem_za_skladistenje
                     con.cn.Close();
                     return;
                 }
-                query = "INSERT INTO historija (naziv_alata, ime_prezime, kolicina, sifra_proizvodnje, interna_sifra, datum_zaduzenja) VALUES ('" + naziv_alata + "', '" + ime_prezime + "', '" + kolicina + "', '" + sifra_proizvodnje + "', '" + interna_sifra + "', '"+time.ToString("yyyy-MM-dd HH:mm:ss") +"')";
+                query = "INSERT INTO historija (naziv_alata, ime_prezime, kolicina, sifra_proizvodnje, interna_sifra, datum_zaduzenja) VALUES ('" + naziv_alata + "', '" + ime_prezime + "', '" + kolicina + "', '" + sifra_proizvodnje + "', '" + interna_sifra + "', '" + time.ToString("yyyy-MM-dd HH:mm:ss") + "')";
                 command = new MySqlCommand(query, con.cn);
                 command.ExecuteNonQuery();
                 con.cn.Close();
@@ -109,7 +113,7 @@ namespace Sistem_za_skladistenje
         {
             con.cn.Open();
             string query = "SELECT * FROM historija";
-            command = new MySqlCommand(query,con.cn);
+            command = new MySqlCommand(query, con.cn);
             command.ExecuteNonQuery();
             dataTable = new System.Data.DataTable();
             adapter = new MySqlDataAdapter(command);
@@ -129,6 +133,112 @@ namespace Sistem_za_skladistenje
             adapter.Fill(dataTable);
             dataGridView1.DataSource = dataTable.DefaultView;
             con.cn.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (ExcelPackage package = new ExcelPackage())
+                {
+                    ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Historija");
+
+                    // Export column headers
+                    for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                    {
+                        worksheet.Cells[1, i + 1].Value = dataGridView1.Columns[i].HeaderText;
+                    }
+
+                    // Export data
+                    for (int row = 0; row < dataGridView1.Rows.Count; row++)
+                    {
+                        for (int col = 0; col < dataGridView1.Columns.Count; col++)
+                        {
+                            worksheet.Cells[row + 2, col + 1].Value = dataGridView1.Rows[row].Cells[col].Value;
+                        }
+                    }
+
+                    // Auto-fit columns
+                    worksheet.Cells[worksheet.Dimension.Address].AutoFitColumns();
+
+                    // Get the Documents folder path
+                    string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                    // Generate a unique file name
+                    string fileName = "izvjestajZaduzenje.xlsx";
+
+                    // Construct the file path
+                    string filePath = Path.Combine(documentsPath, fileName);
+
+                    if (File.Exists(filePath))
+                    {
+                        File.Delete(filePath); // Delete the existing file
+                    }
+
+                    // Save the Excel file
+                    FileInfo file = new FileInfo(filePath);
+                    package.SaveAs(file);
+
+                    MessageBox.Show("Izvjestaj je kreiran, mozete ga naci u Documents folderu pod nazivom izvjestajZaduzenje.xlsx ");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (ExcelPackage package = new ExcelPackage())
+                {
+                    ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Skladiste");
+
+                    // Export column headers
+                    for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                    {
+                        worksheet.Cells[1, i + 1].Value = dataGridView1.Columns[i].HeaderText;
+                    }
+
+                    // Export data
+                    for (int row = 0; row < dataGridView1.Rows.Count; row++)
+                    {
+                        for (int col = 0; col < dataGridView1.Columns.Count; col++)
+                        {
+                            worksheet.Cells[row + 2, col + 1].Value = dataGridView1.Rows[row].Cells[col].Value;
+                        }
+                    }
+
+                    // Auto-fit columns
+                    worksheet.Cells[worksheet.Dimension.Address].AutoFitColumns();
+
+                    // Get the Documents folder path
+                    string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                    // Generate a unique file name
+                    string fileName = "izvjestajSkladiste.xlsx";
+
+                    // Construct the file path
+                    string filePath = Path.Combine(documentsPath, fileName);
+
+                    if (File.Exists(filePath))
+                    {
+                        File.Delete(filePath); // Delete the existing file
+                    }
+
+                    // Save the Excel file
+                    FileInfo file = new FileInfo(filePath);
+                    package.SaveAs(file);
+
+                    MessageBox.Show("Izvjestaj je kreiran, mozete ga naci u Documents folderu pod nazivom izvjestajSkladista.xlsx");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
