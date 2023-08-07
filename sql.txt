@@ -1,0 +1,25 @@
+CREATE TABLE `historija` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `naziv_alata` varchar(255) DEFAULT NULL,
+  `ime_prezime` varchar(255) DEFAULT NULL,
+  `datum_zaduzenja` datetime DEFAULT NULL,
+  `datum_vracanja` date DEFAULT NULL,
+  `kolicina` varchar(255) DEFAULT NULL,
+  `sifra_proizvodnje` varchar(255) DEFAULT NULL,
+  `interna_sifra` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+
+CREATE TABLE `skladiste` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `naziv_alata` varchar(255) DEFAULT NULL,
+  `precnik` varchar(255) DEFAULT NULL,
+  `proizvodjac` varchar(255) DEFAULT NULL,
+  `vrsta` varchar(255) DEFAULT NULL,
+  `sifra_proizvodnje` varchar(255) DEFAULT NULL,
+  `interna_sifra` varchar(255) DEFAULT NULL,
+  `cijena` varchar(255) DEFAULT NULL,
+  `mjesto` varchar(255) DEFAULT NULL,
+  `kolicina` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
