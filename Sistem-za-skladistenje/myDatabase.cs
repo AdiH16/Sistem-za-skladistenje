@@ -7,7 +7,7 @@ namespace Sistem_za_skladistenje
         public MySqlConnection cn;
         public void Connect()
         {
-            string ip = "192.168.0.20";
+            string ip = "192.168.0.100";
             cn = new MySqlConnection("Datasource = " + ip + ";username=Remote;password=admin; database=skladiste;Convert Zero Datetime=True");
         }
     }
