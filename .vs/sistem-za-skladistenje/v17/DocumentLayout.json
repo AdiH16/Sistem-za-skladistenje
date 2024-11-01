@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\mydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\mydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|c:\\users\\user\\desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Sistem-za-skladistenje||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\sistem-za-skladistenje\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D4CCD237-A94C-45AB-B02F-97D6924A2B7E}|Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj|solutionrelative:sistem-za-skladistenje\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Sistem-za-skladistenje\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T22:46:02.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "myDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\myDatabase.cs",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\myDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\myDatabase.cs",
+              "RelativeToolTip": "Sistem-za-skladistenje\\myDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:24:54.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sistem-za-skladistenje",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj",
+              "RelativeToolTip": "Sistem-za-skladistenje\\Sistem-za-skladistenje.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-22T08:29:14.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Form1.Designer.cs",
+              "RelativeToolTip": "Sistem-za-skladistenje\\Form1.Designer.cs",
+              "ViewState": "AQIAAPsBAAAAAAAAAAAmwA4CAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:24:54.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Form1.cs",
+              "RelativeToolTip": "Sistem-za-skladistenje\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOICAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:24:54.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\packages.config",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\packages.config",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\packages.config",
+              "RelativeToolTip": "Sistem-za-skladistenje\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-22T08:24:54.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Form1.cs [Design]",
+              "RelativeToolTip": "Sistem-za-skladistenje\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:24:54.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Program.cs",
+              "RelativeDocumentMoniker": "Sistem-za-skladistenje\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\sistem-za-skladistenje\\Sistem-za-skladistenje\\Program.cs",
+              "RelativeToolTip": "Sistem-za-skladistenje\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:24:54.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
